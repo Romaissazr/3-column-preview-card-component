@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    background-color: hsl(0, 0%, 95%); 
+}
+
+
+section {
+    padding: 50px 40px ;
+
+    max-width: 260px;
+}
+
+section img{
+    width: 50px;
+}
+section h1{
+    margin: 20px 0;
+    color: hsl(0, 0%, 95%);
+    font-weight: 700;
+    font-family: "Big Shoulders Display", sans-serif;
+    
+}
+section  p{
+    font-weight: 400;
+    color:  hsla(0, 0%, 100%, 0.75);
+    line-height: 1.7;
+    font-size: 13px;
+    margin-right: 17px;
+    margin-bottom: 60px;
+}
+section a{
+    text-decoration: none;
+    background: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-weight: 400;
+
+
+}
+.one{
+    background: hsl(31, 77%, 52%);
+}
+.two{
+    background: hsl(184, 100%, 22%);
+}
+.three{
+    background:  hsl(179, 100%, 13%) ;
+}
+.one a{ 
+color: hsl(31, 77%, 52%);
+}
+.two a{
+  color: hsl(184, 100%, 22%);
+}
+.three a{
+    color: hsl(179, 100%, 13%);
+}
+section a:hover{
+    cursor: pointer;
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+}
+@media screen and (max-width:476px) {
+    body {
+      flex-direction: column;
+      padding: 50px 0; 
+    }
+  
+}
